@@ -8,11 +8,6 @@ A Streamlit application that leverages a fine-tuned BERT model to analyze the se
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
-- [File Structure](#file-structure)
-- [Troubleshooting](#troubleshooting)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
 
 ## Introduction
 
@@ -36,27 +31,26 @@ IMDB Movie Review Sentiment Analysis is an intuitive web app built using [Stream
 - Python 3.7+
 - [pip](https://pip.pypa.io/en/stable/)
 
-### Clone the Repository
+## Clone the Repository
 
-```bash
+```shell
 git clone https://github.com/yourusername/imdb-sentiment-analysis.git
 cd imdb-sentiment-analysis
 
-### Install Required Packages
+## Install Required Packages
 
-```bash
+```shell
 python -m venv venv
 source venv/bin/activate  # On Windows use: venv\Scripts\activate
 
 
 ### Install the necessary dependencies:
 
-```bash
+```shell
 pip install -r requirements.txt
 
 ### Usage
 To run the application, execute the following command:
 
-```bash
+``shell
 streamlit run app.py
-
