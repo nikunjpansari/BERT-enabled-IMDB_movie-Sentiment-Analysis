@@ -31,7 +31,7 @@ IMDB Movie Review Sentiment Analysis is an intuitive web app built using [Stream
 - Python 3.9+
 - pip
 
-### Installation
+### Steps
 
 1. **Clone the repository:**
 
@@ -39,11 +39,15 @@ IMDB Movie Review Sentiment Analysis is an intuitive web app built using [Stream
    git clone https://github.com/yourusername/imdb-sentiment-analysis.git
    cd imdb-sentiment-analysis
    
-2. **Install Required Packages:**
-  
-	```bash
+2. **Set Up a Virtual Environment**
+
+      ```bash
    python -m venv venv
    source venv/bin/activate
+
+3. **Install Required Packages:**
+
+      ```bash
    pip install -r requirements.txt
  
 ### **Usage**
